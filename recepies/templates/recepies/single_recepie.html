@@ -49,14 +49,16 @@
             <thead>
             <tr>
                 <th scope="col">Ingredients</th>
-                <th scope="col">Calories</th>
+                <th scope="col">Weight</th>
+                <th scope="col">Calories per 100g</th>
             </tr>
             </thead>
             <tbody>
-            {% for f in rec.food.all %}
+            {% for w in qs %}
             <tr>
-                <td scope="row">{{ f.name }}</td>
-                <td>{{ f.calorie }}</td>
+                <td scope="row">{{ w.food.name }}</td>
+                <td>{{ w.weight }}</td>
+                <td>{{ w.food.calorie }}</td>
             </tr>
             {% endfor %}
             </tbody>

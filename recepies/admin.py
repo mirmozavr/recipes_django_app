@@ -1,14 +1,21 @@
 from django.contrib import admin
-from .models import Recepies, Food
+from .models import Recepies, Food, Weight
 # Register your models here.
+
+
+class WeightInline(admin.TabularInline):
+    model = Weight
+    extra = 1
 
 
 @admin.register(Recepies)
 class RecepiesAdmin(admin.ModelAdmin):
-    list_display = ['_id', 'title', 'text', 'cooking_time', 'slug', 'branch', 'modified']
-    list_editable = ['title', 'text', 'branch', 'cooking_time']
+    list_display = ('_id', 'title', 'text', 'cooking_time', 'slug', 'branch', 'modified')
+    list_editable = ('title', 'text', 'branch', 'cooking_time')
+    ordering = ('-modified',)
     prepopulated_fields = {'slug': ('title',)}
-    filter_horizontal = ['food']
+    filter_horizontal = ('food',)
+    inlines = (WeightInline,)
 
 
 class CalorieFilter(admin.SimpleListFilter):
@@ -42,11 +49,11 @@ class CalorieFilter(admin.SimpleListFilter):
 
 @admin.register(Food)
 class FoodAdmin(admin.ModelAdmin):
-    list_display = ['_id', 'name', 'calorie', 'nutrition']
-    list_editable = ['name', 'calorie']
-    ordering = ['name', '-calorie']
+    list_display = ('_id', 'name', 'calorie', 'nutrition')
+    list_editable = ('name', 'calorie')
+    ordering = ('name', '-calorie')
     list_per_page = 100
-    search_fields = ['name', 'calorie']
+    search_fields = ('name', 'calorie')
     list_filter = [CalorieFilter]
 
     @admin.display(ordering='calorie', description='Nutritive')

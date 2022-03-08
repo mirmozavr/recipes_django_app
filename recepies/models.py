@@ -20,13 +20,12 @@ class Recepies(models.Model):
     text = models.CharField(max_length=500)
     branch = models.CharField(max_length=10, choices=FOOD_TYPE_CHOICE, default='other')
     slug = models.SlugField(default='', blank=True)
-    food = models.ManyToManyField('Food', null=True, blank=True)
+    food = models.ManyToManyField('Food', null=True, blank=True, through='Weight')
     cooking_time = models.DurationField(default=timedelta(), null=True, blank=True)
     modified = models.DateTimeField(auto_now=True)
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
-        # self.modified = datetime.now()
         super().save(*args, **kwargs)
 
     def __str__(self):
@@ -42,3 +41,13 @@ class Food(models.Model):
         return self.name
 
 
+class Weight(models.Model):
+    recepie = models.ForeignKey(Recepies, on_delete=models.CASCADE)
+    food = models.ForeignKey(Food, on_delete=models.PROTECT)
+    weight = models.IntegerField(default=0)
+
+    def __str__(self):
+        return f"{self.food} - {self.weight}gr for {self.recepie}"
+
+    def __repr__(self):
+            return f"{self.food} - {self.weight}gr for {self.recepie}"
