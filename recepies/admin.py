@@ -10,7 +10,7 @@ class WeightInline(admin.TabularInline):
 
 @admin.register(Recepies)
 class RecepiesAdmin(admin.ModelAdmin):
-    list_display = ('_id', 'title', 'text', 'cooking_time', 'slug', 'branch', 'modified')
+    list_display = ('id', 'title', 'text', 'cooking_time', 'slug', 'branch', 'modified')
     list_editable = ('title', 'text', 'branch', 'cooking_time')
     ordering = ('-modified',)
     prepopulated_fields = {'slug': ('title',)}
@@ -49,7 +49,7 @@ class CalorieFilter(admin.SimpleListFilter):
 
 @admin.register(Food)
 class FoodAdmin(admin.ModelAdmin):
-    list_display = ('_id', 'name', 'calorie', 'nutrition')
+    list_display = ('id', 'name', 'calorie', 'nutrition')
     list_editable = ('name', 'calorie')
     ordering = ('name', '-calorie')
     list_per_page = 100

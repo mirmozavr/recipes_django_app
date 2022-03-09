@@ -24,6 +24,7 @@
       }
     
 
+
 </style>
 
 
@@ -62,15 +63,19 @@
             </tr>
             {% endfor %}
             </tbody>
+            <thead>
+            <tr class="table-info">
+                <th scope="col">Dish calories per 100g</th>
+                <th scope="col"></th>
+                <th scope="col">{{ dc }}</th>
+            </tr>
+            </thead>
         </table>
         
         <p class="fs-8 col-md-8">Modified: {{ rec.modified|date:"d M Y" }}</p>
     
     
     </main>
-    <footer class="pt-5 my-5 text-muted border-top">
-        Created by the Bootstrap team &middot; &copy; 2021
-    </footer>
 </div>
 
 {% endblock %}

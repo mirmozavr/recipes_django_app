@@ -15,7 +15,6 @@ class Recepies(models.Model):
         ('soup', 'Soup'),
         ('other', 'Other'),
     ]
-    _id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=128, unique=True, null=False)
     text = models.CharField(max_length=500)
     branch = models.CharField(max_length=10, choices=FOOD_TYPE_CHOICE, default='other')
@@ -33,7 +32,6 @@ class Recepies(models.Model):
 
 
 class Food(models.Model):
-    _id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50, unique=True, null=False)
     calorie = models.IntegerField(default=0, validators=[MinValueValidator(0)])
 
@@ -46,8 +44,8 @@ class Weight(models.Model):
     food = models.ForeignKey(Food, on_delete=models.PROTECT)
     weight = models.IntegerField(default=0)
 
-    def __str__(self):
+    def __repr__(self):
         return f"{self.food} - {self.weight}gr for {self.recepie}"
 
-    def __repr__(self):
-            return f"{self.food} - {self.weight}gr for {self.recepie}"
+    def __str__(self):
+        return self.__repr__()
