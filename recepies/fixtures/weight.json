@@ -1,0 +1,1289 @@
+[
+  {
+    "model": "recepies.weight",
+    "pk": 1,
+    "fields": {
+      "recepie": 1,
+      "food": 772,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 2,
+    "fields": {
+      "recepie": 1,
+      "food": 104,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 3,
+    "fields": {
+      "recepie": 1,
+      "food": 653,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 4,
+    "fields": {
+      "recepie": 1,
+      "food": 210,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 5,
+    "fields": {
+      "recepie": 1,
+      "food": 83,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 6,
+    "fields": {
+      "recepie": 1,
+      "food": 275,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 7,
+    "fields": {
+      "recepie": 1,
+      "food": 818,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 8,
+    "fields": {
+      "recepie": 1,
+      "food": 667,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 9,
+    "fields": {
+      "recepie": 1,
+      "food": 350,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 10,
+    "fields": {
+      "recepie": 2,
+      "food": 548,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 11,
+    "fields": {
+      "recepie": 2,
+      "food": 454,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 12,
+    "fields": {
+      "recepie": 2,
+      "food": 38,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 13,
+    "fields": {
+      "recepie": 2,
+      "food": 650,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 14,
+    "fields": {
+      "recepie": 2,
+      "food": 557,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 15,
+    "fields": {
+      "recepie": 2,
+      "food": 462,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 16,
+    "fields": {
+      "recepie": 2,
+      "food": 783,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 17,
+    "fields": {
+      "recepie": 2,
+      "food": 846,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 18,
+    "fields": {
+      "recepie": 2,
+      "food": 282,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 19,
+    "fields": {
+      "recepie": 3,
+      "food": 96,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 20,
+    "fields": {
+      "recepie": 3,
+      "food": 387,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 21,
+    "fields": {
+      "recepie": 3,
+      "food": 613,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 22,
+    "fields": {
+      "recepie": 3,
+      "food": 37,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 23,
+    "fields": {
+      "recepie": 3,
+      "food": 457,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 24,
+    "fields": {
+      "recepie": 3,
+      "food": 779,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 25,
+    "fields": {
+      "recepie": 3,
+      "food": 595,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 26,
+    "fields": {
+      "recepie": 3,
+      "food": 250,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 27,
+    "fields": {
+      "recepie": 4,
+      "food": 131,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 28,
+    "fields": {
+      "recepie": 4,
+      "food": 805,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 29,
+    "fields": {
+      "recepie": 4,
+      "food": 391,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 30,
+    "fields": {
+      "recepie": 4,
+      "food": 873,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 31,
+    "fields": {
+      "recepie": 4,
+      "food": 112,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 32,
+    "fields": {
+      "recepie": 4,
+      "food": 915,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 33,
+    "fields": {
+      "recepie": 4,
+      "food": 341,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 34,
+    "fields": {
+      "recepie": 4,
+      "food": 312,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 35,
+    "fields": {
+      "recepie": 4,
+      "food": 250,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 36,
+    "fields": {
+      "recepie": 5,
+      "food": 224,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 37,
+    "fields": {
+      "recepie": 5,
+      "food": 194,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 38,
+    "fields": {
+      "recepie": 5,
+      "food": 717,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 39,
+    "fields": {
+      "recepie": 5,
+      "food": 142,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 40,
+    "fields": {
+      "recepie": 5,
+      "food": 895,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 41,
+    "fields": {
+      "recepie": 6,
+      "food": 592,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 42,
+    "fields": {
+      "recepie": 6,
+      "food": 292,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 43,
+    "fields": {
+      "recepie": 6,
+      "food": 39,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 44,
+    "fields": {
+      "recepie": 6,
+      "food": 249,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 45,
+    "fields": {
+      "recepie": 6,
+      "food": 703,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 46,
+    "fields": {
+      "recepie": 7,
+      "food": 1,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 47,
+    "fields": {
+      "recepie": 7,
+      "food": 353,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 48,
+    "fields": {
+      "recepie": 7,
+      "food": 226,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 49,
+    "fields": {
+      "recepie": 7,
+      "food": 68,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 50,
+    "fields": {
+      "recepie": 7,
+      "food": 773,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 51,
+    "fields": {
+      "recepie": 7,
+      "food": 423,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 52,
+    "fields": {
+      "recepie": 7,
+      "food": 319,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 53,
+    "fields": {
+      "recepie": 8,
+      "food": 38,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 54,
+    "fields": {
+      "recepie": 8,
+      "food": 6,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 55,
+    "fields": {
+      "recepie": 8,
+      "food": 253,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 56,
+    "fields": {
+      "recepie": 8,
+      "food": 140,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 57,
+    "fields": {
+      "recepie": 8,
+      "food": 525,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 58,
+    "fields": {
+      "recepie": 9,
+      "food": 704,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 59,
+    "fields": {
+      "recepie": 9,
+      "food": 784,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 60,
+    "fields": {
+      "recepie": 9,
+      "food": 421,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 61,
+    "fields": {
+      "recepie": 9,
+      "food": 908,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 62,
+    "fields": {
+      "recepie": 9,
+      "food": 575,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 63,
+    "fields": {
+      "recepie": 10,
+      "food": 832,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 64,
+    "fields": {
+      "recepie": 10,
+      "food": 80,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 65,
+    "fields": {
+      "recepie": 10,
+      "food": 208,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 66,
+    "fields": {
+      "recepie": 10,
+      "food": 263,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 67,
+    "fields": {
+      "recepie": 10,
+      "food": 377,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 68,
+    "fields": {
+      "recepie": 10,
+      "food": 794,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 69,
+    "fields": {
+      "recepie": 10,
+      "food": 251,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 70,
+    "fields": {
+      "recepie": 11,
+      "food": 768,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 71,
+    "fields": {
+      "recepie": 11,
+      "food": 385,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 72,
+    "fields": {
+      "recepie": 11,
+      "food": 535,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 73,
+    "fields": {
+      "recepie": 11,
+      "food": 648,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 74,
+    "fields": {
+      "recepie": 11,
+      "food": 335,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 75,
+    "fields": {
+      "recepie": 11,
+      "food": 591,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 76,
+    "fields": {
+      "recepie": 11,
+      "food": 592,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 77,
+    "fields": {
+      "recepie": 11,
+      "food": 87,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 78,
+    "fields": {
+      "recepie": 11,
+      "food": 923,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 79,
+    "fields": {
+      "recepie": 12,
+      "food": 899,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 80,
+    "fields": {
+      "recepie": 12,
+      "food": 420,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 81,
+    "fields": {
+      "recepie": 12,
+      "food": 325,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 82,
+    "fields": {
+      "recepie": 12,
+      "food": 838,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 83,
+    "fields": {
+      "recepie": 12,
+      "food": 952,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 84,
+    "fields": {
+      "recepie": 12,
+      "food": 11,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 85,
+    "fields": {
+      "recepie": 12,
+      "food": 812,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 86,
+    "fields": {
+      "recepie": 13,
+      "food": 746,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 87,
+    "fields": {
+      "recepie": 13,
+      "food": 197,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 88,
+    "fields": {
+      "recepie": 13,
+      "food": 778,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 89,
+    "fields": {
+      "recepie": 13,
+      "food": 253,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 90,
+    "fields": {
+      "recepie": 13,
+      "food": 430,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 91,
+    "fields": {
+      "recepie": 13,
+      "food": 63,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 92,
+    "fields": {
+      "recepie": 14,
+      "food": 97,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 93,
+    "fields": {
+      "recepie": 14,
+      "food": 162,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 94,
+    "fields": {
+      "recepie": 14,
+      "food": 940,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 95,
+    "fields": {
+      "recepie": 14,
+      "food": 461,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 96,
+    "fields": {
+      "recepie": 14,
+      "food": 718,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 97,
+    "fields": {
+      "recepie": 14,
+      "food": 305,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 98,
+    "fields": {
+      "recepie": 14,
+      "food": 604,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 99,
+    "fields": {
+      "recepie": 14,
+      "food": 63,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 100,
+    "fields": {
+      "recepie": 15,
+      "food": 243,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 101,
+    "fields": {
+      "recepie": 15,
+      "food": 101,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 102,
+    "fields": {
+      "recepie": 15,
+      "food": 182,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 103,
+    "fields": {
+      "recepie": 15,
+      "food": 426,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 104,
+    "fields": {
+      "recepie": 15,
+      "food": 285,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 105,
+    "fields": {
+      "recepie": 15,
+      "food": 719,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 106,
+    "fields": {
+      "recepie": 16,
+      "food": 641,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 107,
+    "fields": {
+      "recepie": 16,
+      "food": 646,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 108,
+    "fields": {
+      "recepie": 16,
+      "food": 838,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 109,
+    "fields": {
+      "recepie": 16,
+      "food": 201,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 110,
+    "fields": {
+      "recepie": 16,
+      "food": 714,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 111,
+    "fields": {
+      "recepie": 16,
+      "food": 267,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 112,
+    "fields": {
+      "recepie": 16,
+      "food": 715,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 113,
+    "fields": {
+      "recepie": 16,
+      "food": 114,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 114,
+    "fields": {
+      "recepie": 16,
+      "food": 787,
+      "weight": 400
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 115,
+    "fields": {
+      "recepie": 16,
+      "food": 952,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 116,
+    "fields": {
+      "recepie": 17,
+      "food": 849,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 117,
+    "fields": {
+      "recepie": 17,
+      "food": 689,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 118,
+    "fields": {
+      "recepie": 17,
+      "food": 275,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 119,
+    "fields": {
+      "recepie": 17,
+      "food": 389,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 120,
+    "fields": {
+      "recepie": 17,
+      "food": 39,
+      "weight": 500
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 121,
+    "fields": {
+      "recepie": 17,
+      "food": 232,
+      "weight": 200
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 122,
+    "fields": {
+      "recepie": 17,
+      "food": 317,
+      "weight": 900
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 123,
+    "fields": {
+      "recepie": 18,
+      "food": 869,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 124,
+    "fields": {
+      "recepie": 18,
+      "food": 808,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 125,
+    "fields": {
+      "recepie": 18,
+      "food": 906,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 126,
+    "fields": {
+      "recepie": 18,
+      "food": 412,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 127,
+    "fields": {
+      "recepie": 18,
+      "food": 926,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 128,
+    "fields": {
+      "recepie": 18,
+      "food": 751,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 129,
+    "fields": {
+      "recepie": 19,
+      "food": 704,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 130,
+    "fields": {
+      "recepie": 19,
+      "food": 489,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 131,
+    "fields": {
+      "recepie": 19,
+      "food": 621,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 132,
+    "fields": {
+      "recepie": 19,
+      "food": 404,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 133,
+    "fields": {
+      "recepie": 19,
+      "food": 149,
+      "weight": 300
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 134,
+    "fields": {
+      "recepie": 19,
+      "food": 439,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 135,
+    "fields": {
+      "recepie": 19,
+      "food": 730,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 136,
+    "fields": {
+      "recepie": 19,
+      "food": 283,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 137,
+    "fields": {
+      "recepie": 20,
+      "food": 736,
+      "weight": 800
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 138,
+    "fields": {
+      "recepie": 20,
+      "food": 145,
+      "weight": 100
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 139,
+    "fields": {
+      "recepie": 20,
+      "food": 418,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 140,
+    "fields": {
+      "recepie": 20,
+      "food": 325,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 141,
+    "fields": {
+      "recepie": 20,
+      "food": 758,
+      "weight": 700
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 142,
+    "fields": {
+      "recepie": 20,
+      "food": 744,
+      "weight": 600
+    }
+  },
+  {
+    "model": "recepies.weight",
+    "pk": 143,
+    "fields": {
+      "recepie": 20,
+      "food": 699,
+      "weight": 200
+    }
+  }
+]

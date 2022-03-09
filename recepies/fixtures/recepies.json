@@ -1,1 +1,242 @@
-[{"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 1", "text": "Text instruction to cook Recepie \u2116 1", "branch": ["soup"], "cooking_time": "00:43:00", "slug": "recepie-no-1", "modified": "2022-03-05T14:37:26.855Z", "food": [104, 772, 275, 83, 667, 653, 350, 210, 818]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 2", "text": "Text instruction to cook Recepie \u2116 2", "branch": ["bakery,fish"], "cooking_time": "00:18:00", "slug": "recepie-no-2", "modified": "2022-03-05T14:37:26.855Z", "food": [783, 557, 548, 282, 454, 38, 462, 846, 650]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 3", "text": "Text instruction to cook Recepie \u2116 3", "branch": ["salad"], "cooking_time": "00:20:00", "slug": "recepie-no-3", "modified": "2022-03-05T14:37:26.855Z", "food": [37, 613, 96, 457, 595, 387, 250, 779]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 4", "text": "Text instruction to cook Recepie \u2116 4", "branch": ["meat"], "cooking_time": "00:59:00", "slug": "recepie-no-4", "modified": "2022-03-05T14:37:26.855Z", "food": [250, 805, 341, 873, 312, 112, 915, 391, 131]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 5", "text": "Text instruction to cook Recepie \u2116 5", "branch": ["other"], "cooking_time": "00:24:00", "slug": "recepie-no-5", "modified": "2022-03-05T14:37:26.855Z", "food": [895, 142, 717, 194, 224]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 6", "text": "Text instruction to cook Recepie \u2116 6", "branch": ["salad"], "cooking_time": "00:40:00", "slug": "recepie-no-6", "modified": "2022-03-05T14:37:26.855Z", "food": [39, 592, 292, 703, 249]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 7", "text": "Text instruction to cook Recepie \u2116 7", "branch": ["other"], "cooking_time": "00:55:00", "slug": "recepie-no-7", "modified": "2022-03-05T14:37:26.855Z", "food": [773, 1, 68, 319, 423, 353, 226]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 8", "text": "Text instruction to cook Recepie \u2116 8", "branch": ["bakery,fish"], "cooking_time": "00:42:00", "slug": "recepie-no-8", "modified": "2022-03-05T14:37:26.855Z", "food": [253, 525, 140, 6, 38]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 9", "text": "Text instruction to cook Recepie \u2116 9", "branch": ["vegan"], "cooking_time": "00:39:00", "slug": "recepie-no-9", "modified": "2022-03-05T14:37:26.855Z", "food": [575, 784, 908, 704, 421]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 10", "text": "Text instruction to cook Recepie \u2116 10", "branch": ["meat"], "cooking_time": "00:00:00", "slug": "recepie-no-10", "modified": "2022-03-05T14:37:26.855Z", "food": [832, 794, 251, 263, 80, 208, 377]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 11", "text": "Text instruction to cook Recepie \u2116 11", "branch": ["salad"], "cooking_time": "00:57:00", "slug": "recepie-no-11", "modified": "2022-03-05T14:37:26.855Z", "food": [535, 923, 768, 648, 87, 335, 591, 385, 592]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 12", "text": "Text instruction to cook Recepie \u2116 12", "branch": ["bakery,fish"], "cooking_time": "00:29:00", "slug": "recepie-no-12", "modified": "2022-03-05T14:37:26.855Z", "food": [11, 812, 838, 325, 420, 899, 952]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 13", "text": "Text instruction to cook Recepie \u2116 13", "branch": ["soup"], "cooking_time": "00:27:00", "slug": "recepie-no-13", "modified": "2022-03-05T14:37:26.855Z", "food": [778, 430, 746, 197, 253, 63]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 14", "text": "Text instruction to cook Recepie \u2116 14", "branch": ["bakery,fish"], "cooking_time": "00:28:00", "slug": "recepie-no-14", "modified": "2022-03-05T14:37:26.855Z", "food": [604, 461, 97, 718, 305, 63, 162, 940]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 15", "text": "Text instruction to cook Recepie \u2116 15", "branch": ["salad"], "cooking_time": "00:54:00", "slug": "recepie-no-15", "modified": "2022-03-05T14:37:26.855Z", "food": [101, 285, 182, 426, 719, 243]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 16", "text": "Text instruction to cook Recepie \u2116 16", "branch": ["bakery,fish"], "cooking_time": "00:03:00", "slug": "recepie-no-16", "modified": "2022-03-05T14:37:26.855Z", "food": [714, 641, 787, 267, 952, 646, 201, 715, 114, 838]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 17", "text": "Text instruction to cook Recepie \u2116 17", "branch": ["soup"], "cooking_time": "00:49:00", "slug": "recepie-no-17", "modified": "2022-03-05T14:37:26.855Z", "food": [275, 317, 39, 389, 849, 232, 689]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 18", "text": "Text instruction to cook Recepie \u2116 18", "branch": ["bakery,fish"], "cooking_time": "00:34:00", "slug": "recepie-no-18", "modified": "2022-03-05T14:37:26.855Z", "food": [906, 412, 751, 926, 869, 808]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 19", "text": "Text instruction to cook Recepie \u2116 19", "branch": ["soup"], "cooking_time": "00:56:00", "slug": "recepie-no-19", "modified": "2022-03-05T14:37:26.855Z", "food": [404, 439, 730, 704, 283, 489, 149, 621]}}, {"model": "recepies.recepies", "fields": {"title": "Recepie \u2116 20", "text": "Text instruction to cook Recepie \u2116 20", "branch": ["vegan"], "cooking_time": "00:51:00", "slug": "recepie-no-20", "modified": "2022-03-05T14:37:26.855Z", "food": [758, 145, 699, 736, 744, 325, 418]}}]
+[
+  {
+    "model": "recepies.recepies",
+    "pk": 1,
+    "fields": {
+      "title": "Recepie 1",
+      "text": "Text instruction to cook Recepie 1",
+      "branch": "soup",
+      "slug": "recepie-no-1",
+      "cooking_time": "00:43:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 2,
+    "fields": {
+      "title": "Recepie 2",
+      "text": "Text instruction to cook Recepie 2",
+      "branch": "fish",
+      "slug": "recepie-no-2",
+      "cooking_time": "00:18:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 3,
+    "fields": {
+      "title": "Recepie 3",
+      "text": "Text instruction to cook Recepie 3",
+      "branch": "salad",
+      "slug": "recepie-no-3",
+      "cooking_time": "00:20:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 4,
+    "fields": {
+      "title": "Recepie 4",
+      "text": "Text instruction to cook Recepie 4",
+      "branch": "meat",
+      "slug": "recepie-no-4",
+      "cooking_time": "00:59:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 5,
+    "fields": {
+      "title": "Recepie 5",
+      "text": "Text instruction to cook Recepie 5",
+      "branch": "other",
+      "slug": "recepie-no-5",
+      "cooking_time": "00:24:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 6,
+    "fields": {
+      "title": "Recepie 6",
+      "text": "Text instruction to cook Recepie 6",
+      "branch": "salad",
+      "slug": "recepie-no-6",
+      "cooking_time": "00:40:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 7,
+    "fields": {
+      "title": "Recepie 7",
+      "text": "Text instruction to cook Recepie 7",
+      "branch": "other",
+      "slug": "recepie-no-7",
+      "cooking_time": "00:55:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 8,
+    "fields": {
+      "title": "Recepie 8",
+      "text": "Text instruction to cook Recepie 8",
+      "branch": "bakery",
+      "slug": "recepie-no-8",
+      "cooking_time": "00:42:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 9,
+    "fields": {
+      "title": "Recepie 9",
+      "text": "Text instruction to cook Recepie 9",
+      "branch": "vegan",
+      "slug": "recepie-no-9",
+      "cooking_time": "00:39:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 10,
+    "fields": {
+      "title": "Recepie 10",
+      "text": "Text instruction to cook Recepie 10",
+      "branch": "meat",
+      "slug": "recepie-no-10",
+      "cooking_time": "00:50:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 11,
+    "fields": {
+      "title": "Recepie 11",
+      "text": "Text instruction to cook Recepie 11",
+      "branch": "salad",
+      "slug": "recepie-no-11",
+      "cooking_time": "00:57:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 12,
+    "fields": {
+      "title": "Recepie 12",
+      "text": "Text instruction to cook Recepie 12",
+      "branch": "fish",
+      "slug": "recepie-no-12",
+      "cooking_time": "00:29:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 13,
+    "fields": {
+      "title": "Recepie 13",
+      "text": "Text instruction to cook Recepie 13",
+      "branch": "soup",
+      "slug": "recepie-no-13",
+      "cooking_time": "00:27:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 14,
+    "fields": {
+      "title": "Recepie 14",
+      "text": "Text instruction to cook Recepie 14",
+      "branch": "fish",
+      "slug": "recepie-no-14",
+      "cooking_time": "00:28:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 15,
+    "fields": {
+      "title": "Recepie 15",
+      "text": "Text instruction to cook Recepie 15",
+      "branch": "salad",
+      "slug": "recepie-no-15",
+      "cooking_time": "00:54:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 16,
+    "fields": {
+      "title": "Recepie 16",
+      "text": "Text instruction to cook Recepie 16",
+      "branch": "bakery",
+      "slug": "recepie-no-16",
+      "cooking_time": "00:03:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 17,
+    "fields": {
+      "title": "Recepie 17",
+      "text": "Text instruction to cook Recepie 17",
+      "branch": "soup",
+      "slug": "recepie-no-17",
+      "cooking_time": "00:49:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 18,
+    "fields": {
+      "title": "Recepie 18",
+      "text": "Text instruction to cook Recepie 18",
+      "branch": "bakery",
+      "slug": "recepie-no-18",
+      "cooking_time": "00:34:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 19,
+    "fields": {
+      "title": "Recepie 19",
+      "text": "Text instruction to cook Recepie 19",
+      "branch": "soup",
+      "slug": "recepie-no-19",
+      "cooking_time": "00:56:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  },
+  {
+    "model": "recepies.recepies",
+    "pk": 20,
+    "fields": {
+      "title": "Recepie 20",
+      "text": "Text instruction to cook Recepie 20",
+      "branch": "vegan",
+      "slug": "recepie-no-20",
+      "cooking_time": "00:51:00",
+      "modified": "2022-03-05T14:37:26.855Z"
+    }
+  }
+]
