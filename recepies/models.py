@@ -18,7 +18,7 @@ class Recepies(models.Model):
     title = models.CharField(max_length=128, unique=True, null=False)
     text = models.CharField(max_length=500)
     branch = models.CharField(max_length=10, choices=FOOD_TYPE_CHOICE, default='other')
-    slug = models.SlugField(default='', blank=True)
+    slug = models.SlugField(default='', unique=True, blank=True)
     food = models.ManyToManyField('Food', null=True, blank=True, through='Weight')
     cooking_time = models.DurationField(default=timedelta(), null=True, blank=True)
     modified = models.DateTimeField(auto_now=True)
