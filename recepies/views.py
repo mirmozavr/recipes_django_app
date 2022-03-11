@@ -12,7 +12,6 @@ def recepies(request):
 def single_recepie(request, slug: str):
     recipe = get_object_or_404(Recepies, slug=slug)
     qs = recipe.weight_set.all()
-    # print(qs)
     dc = dish_calorage_per100g(slug)
     return render(request, 'recepies/single_recepie.html', {'rec': recipe, 'qs': qs, 'dc': dc})
 
@@ -27,6 +26,5 @@ def dish_calorage_per100g(slug):
         """, [slug])
 
         calorage = cursor.fetchone()
-        print(calorage, type(calorage))
         return calorage[0] or 0
 
