@@ -1,4 +1,4 @@
-##Recipes Web Application
+## Recipes Web Application
 Django-powered web application to share your favorite recipes with the world!  
 Admin panel is provided for adding new recipe entry including title, main text instruction, ingredients
 and weight, and total cooking time. Slug will be automatically provided for every entry based
