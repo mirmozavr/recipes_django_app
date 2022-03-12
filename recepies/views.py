@@ -5,11 +5,19 @@ from .models import Recepies
 
 
 def recepies(request):
+    """
+    Display all recepies.Recepies model objects
+    """
     qs = Recepies.objects.order_by('-modified').all()
     return render(request, 'recepies/recepies.html', {'qs': qs})
 
 
 def single_recepie(request, slug: str):
+    """
+    Display an individual recepies.Recepies model object,
+    all connected recepies.Weight and recepies.Food objects
+    and average dish colorage.
+    """
     recipe = get_object_or_404(Recepies, slug=slug)
     qs = recipe.weight_set.all()
     dc = dish_calorage_per100g(slug)
@@ -17,6 +25,10 @@ def single_recepie(request, slug: str):
 
 
 def dish_calorage_per100g(slug):
+    """
+    Calculate average dish colorage for recepies.Recepies object
+    via designated slug. Implemented by raw sql querie.
+    """
     with connection.cursor() as cursor:
         cursor.execute("""
         SELECT SUM(rf.calorie * rw.weight)/SUM(rw.weight)
@@ -27,4 +39,3 @@ def dish_calorage_per100g(slug):
 
         calorage = cursor.fetchone()
         return calorage[0] or 0
-

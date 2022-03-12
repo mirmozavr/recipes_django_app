@@ -6,6 +6,10 @@ from django.utils.text import slugify
 
 
 class Recepies(models.Model):
+    """
+    Stores a single recipe entry related to recepies.Food
+    and recepies.Weight.
+    """
     FOOD_TYPE_CHOICE = [
         ('meat', 'Meat'),
         ('vegan', 'Vegan'),
@@ -24,6 +28,9 @@ class Recepies(models.Model):
     modified = models.DateTimeField(auto_now=True)
 
     def save(self, *args, **kwargs):
+        """
+        Automatically populates slug field when entry is saved.
+        """
         self.slug = slugify(self.title)
         super().save(*args, **kwargs)
 
@@ -32,6 +39,9 @@ class Recepies(models.Model):
 
 
 class Food(models.Model):
+    """
+    Stores a single recipe entry related to recepies.Food
+    """
     name = models.CharField(max_length=50, unique=True, null=False)
     calorie = models.IntegerField(default=0, validators=[MinValueValidator(0)])
 
@@ -40,6 +50,10 @@ class Food(models.Model):
 
 
 class Weight(models.Model):
+    """
+    Describes a connection of Recepies and Food objects
+    and provides information about weight.
+    """
     recepie = models.ForeignKey(Recepies, on_delete=models.CASCADE)
     food = models.ForeignKey(Food, on_delete=models.PROTECT)
     weight = models.IntegerField(default=0)
