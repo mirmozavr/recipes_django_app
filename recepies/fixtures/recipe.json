@@ -1,10 +1,10 @@
 [
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 1,
     "fields": {
-      "title": "Recepie 1",
-      "text": "Text instruction to cook Recepie 1",
+      "title": "Dish 1",
+      "text": "Text instruction to cook Dish 1",
       "branch": "soup",
       "slug": "recepie-no-1",
       "cooking_time": "00:43:00",
@@ -12,11 +12,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 2,
     "fields": {
-      "title": "Recepie 2",
-      "text": "Text instruction to cook Recepie 2",
+      "title": "Dish 2",
+      "text": "Text instruction to cook Dish 2",
       "branch": "fish",
       "slug": "recepie-no-2",
       "cooking_time": "00:18:00",
@@ -24,11 +24,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 3,
     "fields": {
-      "title": "Recepie 3",
-      "text": "Text instruction to cook Recepie 3",
+      "title": "Dish 3",
+      "text": "Text instruction to cook Dish 3",
       "branch": "salad",
       "slug": "recepie-no-3",
       "cooking_time": "00:20:00",
@@ -36,11 +36,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 4,
     "fields": {
-      "title": "Recepie 4",
-      "text": "Text instruction to cook Recepie 4",
+      "title": "Dish 4",
+      "text": "Text instruction to cook Dish 4",
       "branch": "meat",
       "slug": "recepie-no-4",
       "cooking_time": "00:59:00",
@@ -48,11 +48,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 5,
     "fields": {
-      "title": "Recepie 5",
-      "text": "Text instruction to cook Recepie 5",
+      "title": "Dish 5",
+      "text": "Text instruction to cook Dish 5",
       "branch": "other",
       "slug": "recepie-no-5",
       "cooking_time": "00:24:00",
@@ -60,11 +60,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 6,
     "fields": {
-      "title": "Recepie 6",
-      "text": "Text instruction to cook Recepie 6",
+      "title": "Dish 6",
+      "text": "Text instruction to cook Dish 6",
       "branch": "salad",
       "slug": "recepie-no-6",
       "cooking_time": "00:40:00",
@@ -72,11 +72,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 7,
     "fields": {
-      "title": "Recepie 7",
-      "text": "Text instruction to cook Recepie 7",
+      "title": "Dish 7",
+      "text": "Text instruction to cook Dish 7",
       "branch": "other",
       "slug": "recepie-no-7",
       "cooking_time": "00:55:00",
@@ -84,11 +84,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 8,
     "fields": {
-      "title": "Recepie 8",
-      "text": "Text instruction to cook Recepie 8",
+      "title": "Dish 8",
+      "text": "Text instruction to cook Dish 8",
       "branch": "bakery",
       "slug": "recepie-no-8",
       "cooking_time": "00:42:00",
@@ -96,11 +96,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 9,
     "fields": {
-      "title": "Recepie 9",
-      "text": "Text instruction to cook Recepie 9",
+      "title": "Dish 9",
+      "text": "Text instruction to cook Dish 9",
       "branch": "vegan",
       "slug": "recepie-no-9",
       "cooking_time": "00:39:00",
@@ -108,11 +108,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 10,
     "fields": {
-      "title": "Recepie 10",
-      "text": "Text instruction to cook Recepie 10",
+      "title": "Dish 10",
+      "text": "Text instruction to cook Dish 10",
       "branch": "meat",
       "slug": "recepie-no-10",
       "cooking_time": "00:50:00",
@@ -120,11 +120,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 11,
     "fields": {
-      "title": "Recepie 11",
-      "text": "Text instruction to cook Recepie 11",
+      "title": "Dish 11",
+      "text": "Text instruction to cook Dish 11",
       "branch": "salad",
       "slug": "recepie-no-11",
       "cooking_time": "00:57:00",
@@ -132,11 +132,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 12,
     "fields": {
-      "title": "Recepie 12",
-      "text": "Text instruction to cook Recepie 12",
+      "title": "Dish 12",
+      "text": "Text instruction to cook Dish 12",
       "branch": "fish",
       "slug": "recepie-no-12",
       "cooking_time": "00:29:00",
@@ -144,11 +144,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 13,
     "fields": {
-      "title": "Recepie 13",
-      "text": "Text instruction to cook Recepie 13",
+      "title": "Dish 13",
+      "text": "Text instruction to cook Dish 13",
       "branch": "soup",
       "slug": "recepie-no-13",
       "cooking_time": "00:27:00",
@@ -156,11 +156,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 14,
     "fields": {
-      "title": "Recepie 14",
-      "text": "Text instruction to cook Recepie 14",
+      "title": "Dish 14",
+      "text": "Text instruction to cook Dish 14",
       "branch": "fish",
       "slug": "recepie-no-14",
       "cooking_time": "00:28:00",
@@ -168,11 +168,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 15,
     "fields": {
-      "title": "Recepie 15",
-      "text": "Text instruction to cook Recepie 15",
+      "title": "Dish 15",
+      "text": "Text instruction to cook Dish 15",
       "branch": "salad",
       "slug": "recepie-no-15",
       "cooking_time": "00:54:00",
@@ -180,11 +180,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 16,
     "fields": {
-      "title": "Recepie 16",
-      "text": "Text instruction to cook Recepie 16",
+      "title": "Dish 16",
+      "text": "Text instruction to cook Dish 16",
       "branch": "bakery",
       "slug": "recepie-no-16",
       "cooking_time": "00:03:00",
@@ -192,11 +192,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 17,
     "fields": {
-      "title": "Recepie 17",
-      "text": "Text instruction to cook Recepie 17",
+      "title": "Dish 17",
+      "text": "Text instruction to cook Dish 17",
       "branch": "soup",
       "slug": "recepie-no-17",
       "cooking_time": "00:49:00",
@@ -204,11 +204,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 18,
     "fields": {
-      "title": "Recepie 18",
-      "text": "Text instruction to cook Recepie 18",
+      "title": "Dish 18",
+      "text": "Text instruction to cook Dish 18",
       "branch": "bakery",
       "slug": "recepie-no-18",
       "cooking_time": "00:34:00",
@@ -216,11 +216,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 19,
     "fields": {
-      "title": "Recepie 19",
-      "text": "Text instruction to cook Recepie 19",
+      "title": "Dish 19",
+      "text": "Text instruction to cook Dish 19",
       "branch": "soup",
       "slug": "recepie-no-19",
       "cooking_time": "00:56:00",
@@ -228,11 +228,11 @@
     }
   },
   {
-    "model": "recepies.recepies",
+    "model": "recepies.recipe",
     "pk": 20,
     "fields": {
-      "title": "Recepie 20",
-      "text": "Text instruction to cook Recepie 20",
+      "title": "Dish 20",
+      "text": "Text instruction to cook Dish 20",
       "branch": "vegan",
       "slug": "recepie-no-20",
       "cooking_time": "00:51:00",

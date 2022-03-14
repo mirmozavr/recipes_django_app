@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Recepies, Food, Weight
+from .models import Recipe, Food, Weight
 # Register your models here.
 
 
@@ -8,7 +8,7 @@ class WeightInline(admin.TabularInline):
     extra = 1
 
 
-@admin.register(Recepies)
+@admin.register(Recipe)
 class RecepiesAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'text', 'cooking_time', 'slug', 'branch', 'modified')
     list_editable = ('title', 'text', 'branch', 'cooking_time')

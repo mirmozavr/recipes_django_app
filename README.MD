@@ -46,5 +46,5 @@ provide your fixture or fill ingredients in the admin panel.
 `docker-compose exec web python manage.py loaddata food.json`  
 7. If you executed the command from the previous step and you want to populate tables
 further with 20 random recipes, use 2 more fixtures.  
-`docker-compose exec web python manage.py loaddata recepies.json`  
+`docker-compose exec web python manage.py loaddata recipe.json`  
 `docker-compose exec web python manage.py loaddata weight.json`  

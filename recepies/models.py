@@ -5,7 +5,7 @@ from django.db import models
 from django.utils.text import slugify
 
 
-class Recepies(models.Model):
+class Recipe(models.Model):
     """
     Stores a single recipe entry related to recepies.Food
     and recepies.Weight.
@@ -23,7 +23,7 @@ class Recepies(models.Model):
     text = models.CharField(max_length=500)
     branch = models.CharField(max_length=10, choices=FOOD_TYPE_CHOICE, default='other')
     slug = models.SlugField(default='', unique=True, blank=True)
-    food = models.ManyToManyField('Food', null=True, blank=True, through='Weight')
+    food = models.ManyToManyField('Food', null=True, blank=True, through='Weight', related_name='recipes')
     cooking_time = models.DurationField(default=timedelta(), null=True, blank=True)
     modified = models.DateTimeField(auto_now=True)
 
@@ -54,12 +54,12 @@ class Weight(models.Model):
     Describes a connection of Recepies and Food objects
     and provides information about weight.
     """
-    recepie = models.ForeignKey(Recepies, on_delete=models.CASCADE)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
     food = models.ForeignKey(Food, on_delete=models.PROTECT)
     weight = models.IntegerField(default=0)
 
     def __repr__(self):
-        return f"{self.food} - {self.weight}gr for {self.recepie}"
+        return f"{self.food} - {self.weight}gr for {self.recipe}"
 
     def __str__(self):
         return self.__repr__()
