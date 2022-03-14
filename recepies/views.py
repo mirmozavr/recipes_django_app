@@ -1,18 +1,27 @@
 from django.db import connection
-from django.db.models import Sum, Avg, Value, Count, Max, Min
+from django.db.models import Sum, Avg, Value, Count, Max, Min, Q
 from django.shortcuts import render, get_object_or_404
+from .forms import SearchForm
 from .models import Recepies
 
 
-def recepies(request):
+def display_all_recipes(request):
     """
     Display all recepies.Recepies model objects
     """
-    qs = Recepies.objects.order_by('-modified').all()
-    return render(request, 'recepies/recepies.html', {'qs': qs})
+    if request.method == 'POST':
+        search_form = SearchForm(request.POST)
+        if search_form.is_valid():
+            qs = Recepies.objects.filter(Q(title__icontains=search_form.cleaned_data['word'])).order_by('-modified').all()
+
+    else:
+        qs = Recepies.objects.order_by('-modified').all()
+
+    search_form = SearchForm()
+    return render(request, 'recepies/recepies.html', {'qs': qs, 'search_form': search_form})
 
 
-def single_recepie(request, slug: str):
+def display_single_recipe(request, slug: str):
     """
     Display an individual recepies.Recepies model object,
     all connected recepies.Weight and recepies.Food objects
@@ -20,11 +29,11 @@ def single_recepie(request, slug: str):
     """
     recipe = get_object_or_404(Recepies, slug=slug)
     qs = recipe.weight_set.all()
-    dc = dish_calorage_per100g(slug)
+    dc = dish_calories_per100g(slug)
     return render(request, 'recepies/single_recepie.html', {'rec': recipe, 'qs': qs, 'dc': dc})
 
 
-def dish_calorage_per100g(slug):
+def dish_calories_per100g(slug):
     """
     Calculate average dish colorage for recepies.Recepies object
     via designated slug. Implemented by raw sql querie.

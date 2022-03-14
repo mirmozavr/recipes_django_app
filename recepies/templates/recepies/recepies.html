@@ -30,11 +30,24 @@
 {% block body %}
 
 
+
 <main>
+
     
     <div class="album py-5 bg-light">
         <div class="container">
+            <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-4">Main page</span>
+                </a>
             
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {{ search_form }}
+                    <input type="submit" value="Search">
+                </form>
+            </header>
+
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             
 {% for item in qs %}
@@ -53,7 +66,7 @@
             <p class="card-text">{{ item.title }}</p>
             <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <a href="{% url 'single_recepie' item.slug %}"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="{% url 'single_recipe' item.slug %}"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
                 </div>
                 <small class="text-muted">Cooking time: {{ item.cooking_time }}</small>
             </div>

@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from recepies.views import recepies, single_recepie
+from recepies.views import display_all_recipes, display_single_recipe
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('<slug:slug>/',single_recepie, name="single_recepie"),
-    path('', recepies),
+    path('<slug:slug>/', display_single_recipe, name="single_recipe"),
+    path('', display_all_recipes),
 ]
