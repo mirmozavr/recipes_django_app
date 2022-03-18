@@ -9,8 +9,11 @@ For every recipe, the average dish calories are calculated based on the weight a
 ![SingleRecipe](https://user-images.githubusercontent.com/68658828/157976811-fbb88fec-5c0d-402e-860e-b12f338061b9.png)
 >
 
+The search field is available at the top of the main page. Search match at recipes titles will be at the top
+of the page, matches at the ingredient names will be placed lower.
+
 >Main page with all recipes represented as square blocks
-![MainPage](https://user-images.githubusercontent.com/68658828/157977028-a60e5a24-a313-45b2-a52f-f174001471c2.png)
+![MainPage](https://user-images.githubusercontent.com/68658828/159061606-0ca11877-4e0d-455d-b659-4445353ea83f.png)
 > 
 
 >All entities may be added and edited via the admin panel.
