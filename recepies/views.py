@@ -1,8 +1,8 @@
 from django.db import connection
-from django.db.models import Q
+from django.db.models import Q, F, Sum
 from django.shortcuts import render, get_object_or_404
 from .forms import SearchForm
-from .models import Recipe
+from .models import Recipe, Weight
 
 
 def display_all_recipes(request):
@@ -49,15 +49,9 @@ def display_single_recipe(request, slug: str):
 def dish_calories_per100g(slug: str):
     """
     Calculate average dish calories for recepies.Recipe object
-    via designated slug. Implemented by raw sql queries.
+    via designated slug.
     """
-    with connection.cursor() as cursor:
-        cursor.execute("""
-        SELECT SUM(rf.calorie * rw.weight)/SUM(rw.weight)
-        FROM recepies_recipe rr JOIN recepies_weight rw ON (rr.id = rw.recipe_id)
-        JOIN recepies_food rf ON (rw.food_id = rf.id)
-        WHERE rr.slug = %s
-        """, [slug])
-
-        calories = cursor.fetchone()
-        return calories[0] or 0
+    calories_per100g = Weight.objects.filter(recipe__slug=slug)\
+        .annotate(total_calories=F('weight') * F('food__calorie'))\
+        .aggregate(total=Sum('total_calories') / Sum('weight'))
+    return calories_per100g['total'] or '-'
