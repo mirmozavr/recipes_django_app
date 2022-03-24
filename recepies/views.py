@@ -1,4 +1,3 @@
-from django.db import connection
 from django.db.models import Q, F, Sum
 from django.shortcuts import render, get_object_or_404
 from .forms import SearchForm
@@ -28,7 +27,6 @@ def recipe_search(request):
     else:
         title_search_qs, ingredient_search_qs = None, None
     search_form = SearchForm()
-    print(title_search_qs, ingredient_search_qs)
     return render(request, 'recepies/search.html', {'ts': title_search_qs,
                                                     'ings': ingredient_search_qs,
                                                     'search_form': search_form})
