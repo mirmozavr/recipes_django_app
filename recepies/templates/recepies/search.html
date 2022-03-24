@@ -26,16 +26,7 @@
 
 <div class="album py-5 bg-light">
     <div class="container">
-        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                <span class="fs-4">Main page</span>
-            </a>
-            
-            <form action="/search/" method="get">
-                {{ search_form }}
-                <input type="submit" value="Search">
-            </form>
-        </header>
+        {% include "./header.html" %}
         
         {% if not ts and not ings %}
         <span class="fs-5">No result matching your search</span>
