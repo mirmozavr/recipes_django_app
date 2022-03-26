@@ -3,7 +3,7 @@
         <span class="fs-4">Main page</span>
     </a>
     
-    <form action="/search/" method="get">
+    <form action="{% url 'recipe_search' %}" method="get">
         {{ search_form }}
         <input type="submit" value="Search">
     </form>
