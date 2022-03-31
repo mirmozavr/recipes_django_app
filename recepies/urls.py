@@ -19,6 +19,6 @@ from recepies.views import display_all_recipes, display_single_recipe, recipe_se
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('search/', recipe_search, name="recipe_search"),
-    path('<slug:slug>/', display_single_recipe, name="single_recipe"),
+    path('/recipe/<slug:slug>/', display_single_recipe, name="single_recipe"),
     path('', display_all_recipes),
 ]
