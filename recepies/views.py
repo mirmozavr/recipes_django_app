@@ -2,6 +2,7 @@ from django.db.models import Q, F, Sum
 from django.shortcuts import render, get_object_or_404
 from .forms import SearchForm
 from .models import Recipe, Weight
+from django.core.paginator import Paginator
 
 
 def display_all_recipes(request):
@@ -10,8 +11,12 @@ def display_all_recipes(request):
     """
     qs = Recipe.objects.order_by('-modified').all()
 
+    paginator = Paginator(qs, 9)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
     search_form = SearchForm()
-    return render(request, 'recepies/recepies.html', {'qs': qs, 'search_form': search_form})
+    return render(request, 'recepies/recepies.html', {'page_obj': page_obj, 'search_form': search_form})
 
 
 def recipe_search(request):
