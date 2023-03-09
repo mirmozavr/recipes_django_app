@@ -31,7 +31,7 @@ are launched via docker-compose. Following instructions require Docker installed
 `docker-compose build`
 3. Run docker image  
 `docker-compose up -d`  
-'-d' is used to skip printing anything to STDOUT  
+
 At this point step 1 might be skipped, this command will build an image if it is absent
 
 >Commands in the next steps must start with 'docker-compose exec web' to be applied to the app in a container.  
